@@ -1,226 +1,106 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8">
+        <title>Tour & Photo Verona</title>
+
+        <!-- icons -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Homepage</title>
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway:300" rel="stylesheet">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Kalam:300|Open+Sans:300|Shadows+Into+Light" rel="stylesheet">
+
+
+        <!-- Custom Css -->
+        <link rel="stylesheet" href="css/customCss.css">
+
+        <!-- Main Css -->
         <link rel="stylesheet" href="css/main.css">
+
     </head>
     <body>
-        <section class="hero background-title is-fullheight">
-            <div class="hero-body">
-                <div class="container">
-                    <div class="columns">
-                        <div class="column is-8-desktop is-offset-2-desktop has-border animation-title">
-                            <h1 class="has-text-white  title is-2">
-                                Welcome to Verona!
-                            </h1>
-                            <br>
-                            <h2 class="is-title is-2 subtitle is-4 has-text-white has-text-right ">
-                                This website is made so YOU can see your journey to Verona.
-                                <br>
-                                You have all you need to share your experience with the one you love!
-                            </h2>
+        <section class="hero is-info is-fullheight">
+            <a class= "brand" href="../">
+                Alex Cotin
+            </a>
+            <a class="menu-button" id="menu">Menu</a>
+            <div class="hidden-navbar ">
+                <div class=" columns is-multiline is-centered  middle  " id="showMenu">
+                    <div class="column is-2">
+                        <div class="btn btn-two  gap-2 has-text-centered">
+                            <a>
+                                <span>ABOUT ME</span> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column is-2">
+                        <div class="btn btn-two  has-text-centered">
+                            <a>
+                                <span>OFFERS</span> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column is-2">
+                        <div class="btn btn-two has-text-centered">
+                            <a>
+                                <span class="">HOME</span> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column is-2">
+                        <div class="btn btn-two has-text-centered ">
+                            <a>
+                                <span>PRICES</span> 
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column is-2">
+                        <div class="btn btn-two has-text-centered">
+                            <a>
+                                <span>CONTACT</span> 
+                            </a>
+                        </div>
+                    </div>>
+                </div>
+                <button class="modal-close is-large" aria-label="close" id="closeMenu"></button>
+            </div>
+            <div class="hero-body animation-title">
+                <div class="container has-text-centered" id="title">
+                    <div class="column is-6 is-offset-3">
+                        <h1 class="title">
+                            Live the MAGIC of Verona
+                        </h1>
+                        <h2 class="subtitle">
+                            $this is the best software platform for running an internet business. We handle billions of dollars every year for forward-thinking businesses around the world 213. 
+                        </h2>
+                        <div class="box">
+                            <div class="field is-grouped">
+                                <p class="control is-expanded">
+                                    <input class="input" type="text" placeholder="Enter your email">
+                                </p>
+                                <p class="control">
+                                    <a class="button is-info">
+                                        Notify Me
+                                    </a>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </section>
-        <section class="section" id="whoiam">
-            <div class="hero-head fixed-bottom">
-                <a class="button is-hovered ">Hover</a>
-            </div>
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-8-desktop is-offset-2-desktop">
-                        <div class="content">
-                            <h3 class="indie-flower-font subtitle is-2">Who i Am</h3>
-                            <p>
-                                The <code>npm</code> dependencies included in <code>package.json</code> are:
-                            </p>
-                            <ul>
-                                <li>
-                                    <code><a href="https://github.com/jgthms/bulma">bulma</a></code>
-                                </li>
-                                <li>
-                                    <code><a href="https://github.com/sass/node-sass">node-sass</a></code> to compile your own Sass file
-                                </li>
-                                <li>
-                                    <code><a href="https://github.com/postcss/postcss-cli">postcss-cli</a></code> and <code><a href="https://github.com/postcss/autoprefixer">autoprefixer</a></code> to add support for older browsers
-                                </li>
-                                <li>
-                                    <code><a href="https://babeljs.io/docs/usage/cli/">babel-cli</a></code>,
-                                    <code><a href="https://github.com/babel/babel-preset-env">babel-preset-env</a></code>
-                                    and
-                                    <code><a href="https://github.com/jmcriffey/babel-preset-es2015-ie">babel-preset-es2015-ie</a></code>
-                                    for compiling ES6 JavaScript files
-                                </li>
-                            </ul>
-                            <p>
-                                Apart from <code>package.json</code>, the following files are included:
-                            </p>
-                            <ul>
-                                <li>
-                                    <code>.babelrc</code> configuration file for <a href="https://babeljs.io/">Babel</a>
-                                </li>
-                                <li>
-                                    <code>.gitignore</code> common <a href="https://git-scm.com/">Git</a> ignored files
-                                </li>
-                                <li>
-                                    <code>index.html</code> this HTML5 file
-                                </li>
-                                <li>
-                                    <code>_sass/main.scss</code> a basic SCSS file that <strong>imports Bulma</strong> and explains how to <strong>customize</strong> your styles, and compiles to <code>css/main.css</code>
-                                </li>
-                                <li>
-                                    <code>_javascript/main.js</code> an ES6 JavaScript that compiles to <code>lib/main.js</code>
-                                </li>
-                            </ul>
-                            <h3>Try it out!</h3>
-                            <p>
-                                To see if your setup works, follow these steps:
-                            </p>
-                            <ol>
-                                <li>
-                                    <p>
-                                        <strong>Move</strong> to this directory:
-                                        <br>
-                                    <pre><code>cd bulma-start</code></pre>
-                                </p>
-                            </li>
-                        <li>
-                            <p>
-                                <strong>Install</strong> all dependencies:
-                                <br>
-                            <pre><code>npm install</code></pre>
-                        </p>
-                    </li>
-                <li>
-                    <p>
-                        <strong>Start</strong> the CSS and JS watchers:
-                        <br>
-                    <pre><code>npm start</code></pre>
-                </p>
-            </li>
-        <li>
-            <p>
-                <strong>Edit</strong> <code>_sass/main.scss</code> by adding the following rule at the <strong>end</strong> of the file:
-                <br>
-            <pre><span style="color: #22863a;">html</span> {
-                      <span style="color: #005cc5;"><span style="color: #005cc5;">background-color</span></span>: <span style="color: #24292e">$green</span>;
-                }</pre>
-        </p>
-    </li>
-</ol>
-<p>
-    The page background should turn <strong class="has-text-success">green</strong>!
-</p>
-<h3>Get started</h3>
-<p>
-    You're <strong>ready</strong> to create your own designs with Bulma. Just edit or duplicate this page, or simply create a new one!
-    <br>
-    For example, this page is <strong>only</strong> built with the following <strong>Bulma elements</strong>:
-</p>
-</div>
-<table class="table is-bordered is-fullwidth">
-    <thead>
-        <tr>
-            <th>Type</th>
-            <th>CSS class</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>Columns</th>
-            <td>
-                <code><a href="http://bulma.io/documentation/columns/basics">columns</a></code>
-                <code><a href="http://bulma.io/documentation/columns/basics">column</a></code>
-            </td>
-        </tr>
-        <tr>
-            <th>Layout</th>
-            <td>
-                <code><a href="http://bulma.io/documentation/layout/section">section</a></code>
-                <code><a href="http://bulma.io/documentation/layout/container">container</a></code>
-                <code><a href="http://bulma.io/documentation/layout/footer">footer</a></code>
-            </td>
-        </tr>
-        <tr>
-            <th>Elements</th>
-            <td>
-                <code><a href="http://bulma.io/documentation/elements/button">button</a></code>
-                <code><a href="http://bulma.io/documentation/elements/content">content</a></code>
-                <code><a href="http://bulma.io/documentation/elements/title">title</a></code>
-                <code><a href="http://bulma.io/documentation/elements/title">subtitle</a></code>
-            </td>
-        </tr>
-        <tr>
-            <th>Form</th>
-            <td>
-                <code><a href="http://bulma.io/documentation/form/general">field</a></code>
-                <code><a href="http://bulma.io/documentation/form/general">control</a></code>
-            </td>
-        </tr>
-        <tr>
-            <th>Helpers</th>
-            <td>
-                <code><a href="http://bulma.io/documentation/modifiers/typography-helpers/">has-text-centered</a></code>
-                <code><a href="http://bulma.io/documentation/modifiers/typography-helpers/">has-text-weight-semibold</a></code>
-            </td>
-        </tr>
-    </tbody>
-</table>
-<div class="content">
-    <p>
-        If you want to <strong>learn more</strong>, follow these links:
-    </p>
-</div>
-<div class="field is-grouped">
-    <p class="control">
-        <a class="button is-medium is-primary" href="http://bulma.io">
-            <strong class="has-text-weight-semibold">Bulma homepage</strong>
-        </a>
-    </p>
-    <p class="control">
-        <a class="button is-medium is-link" href="http://bulma.io/documentation/overview/start/">
-            <strong class="has-text-weight-semibold">Documentation</strong>
-        </a>
-    </p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<footer class="footer has-text-centered">
-    <div class="container">
-        <div class="columns">
-            <div class="column is-8-desktop is-offset-2-desktop">
-                <p>
-                    <strong class="has-text-weight-semibold">
-                        <a href="https://www.npmjs.com/package/bulma-start">bulma-start@0.0.3</a>
-                    </strong>
-                </p>
-                <p>
-                    <small>
-                        Source code licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
-                    </small>
-                </p>
-                <p style="margin-top: 1rem;">
-                    <a href="http://bulma.io">
-                        <img src="made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-                    </a>
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-<script type="text/javascript" src="lib/main.js"></script>
-<script
-        src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-        crossorigin="anonymous"></script>
-<script type="text/javascript" src="js/navbar.js"></script>
-</body>
+        <script type="text/javascript" src="lib/main.js"></script>
+        <script
+                src="http://code.jquery.com/jquery-3.3.1.js"
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                crossorigin="anonymous"></script>
+        <script src="js/menuHandler.js"></script>
+    </body>
+
 </html>
